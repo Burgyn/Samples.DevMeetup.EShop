@@ -1,0 +1,21 @@
+---
+description: testing the code
+globs: **/*Tests*/**/*.cs
+alwaysApply: false
+---
+# Code Testing
+
+## Unit Tests
+
+### Technologies and Tools
+- **Framework:** Use exclusively xUnit framework for writing tests
+- **Mocking:** Use NSubstitute for service replacement
+- **Assertions:** Use Shouldly for evaluating test results
+
+### Naming Conventions
+- **Test Class Names:** Must end with the suffix "Should" (e.g. `UserServiceShould`)
+- **Test Method Names:** Should fluidly continue defining the action
+  - Example: `UserServiceShould.ReturnNullWhenUserNotFound()`
+
+### Stylistic Rules
+- **Comments:** Do not include comments for steps in tests

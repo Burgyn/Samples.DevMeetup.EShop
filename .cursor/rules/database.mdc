@@ -1,0 +1,11 @@
+---
+description: database configuration and usage
+globs: **/*Infrastructure*/**/*.cs, **/*Repository.cs, **/SqlScripts/**
+alwaysApply: false
+---
+# Database - Guide
+
+- **ORM:** For all database operations, exclusively use Kros.KORM, do not use other ORM solutions
+- **Architectural Pattern:** Implement repository pattern for database access
+- **Migration Naming:** For creating a migration, first ask for the current date, which serves as the migration number in the filename in the format YYYYMMDDXXXX, where XXXX is the sequential number of the migration for the day.
+- **Creating Migrations:** Write migrations only using DDL, DML, and TCL commands. Do not include modifications of existing data in the migration, but present the proposal as a separate script. When creating a DEFAULT constraint, name this constraint explicitly.
