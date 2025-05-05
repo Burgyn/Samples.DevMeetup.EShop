@@ -19,6 +19,7 @@ alwaysApply: true
   - .NET 9 (or higher, if available)
   - Current library versions
 - **Import Management:** Automatically add appropriate `using` declarations when integrating new classes
+- File-scoped namespace declaration
 
 ### Build and Package Management
 - **Central Package Management**: When including external libraries, use central package management along with a Directory.Build.props file for managing package versions.

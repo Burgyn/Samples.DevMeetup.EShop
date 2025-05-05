@@ -5,6 +5,6 @@ alwaysApply: false
 ---
 # Database - Guide
 
-- **ORM:** For all database operations, exclusively use EntityFramework, do not use other ORM solutions
+- **ORM:** For all database operations, exclusively use Entity Framework, do not use other ORM solutions
 - **Architectural Pattern:** Implement repository pattern for database access
-- By default use in-memory database
+- By default use in-memory Entity Framework data provider
