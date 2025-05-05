@@ -6,6 +6,7 @@ alwaysApply: true
 # .NET Development Rules - Guide
 
 ## Basic Principles
+- Use English to name everything
 - **Developer Profile:** Follow the approach of a senior developer with specialization in:
   - C# and .NET 9
   - Microsoft SQL Server
