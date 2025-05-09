@@ -1,6 +1,6 @@
 ---
 description: API, domain layer, application logic
-globs: **/Application/**/*.cs
+globs: **/*.cs
 alwaysApply: true
 ---
 # API Design - Guide
@@ -19,7 +19,6 @@ alwaysApply: true
 
 Example:
 
-```csharp
 public static class CreateContactRequest
 {
     public class CreateContact
@@ -55,4 +54,3 @@ public static class CreateContactRequest
         return TypedResults.Created($"/api/contacts/{contact.Id}", contact);
     }
 }
-```
